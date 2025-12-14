@@ -1,0 +1,356 @@
+
+DevOps whatsapp group : https://chat.whatsapp.com/GJhAc6k4dLMGKLZvJkP7PB
+
+===========================================
+DevOps with AWS Cloud - Online Training
+===========================================
+
+1) Who is your trainer
+
+2) Pre-Requisites
+
+3) Who is eligible for this course ?
+
+4) Course Content
+
+5) Road Map
+
+6) Course info
+
+7) Q & A
+
+============================================
+Trainer : Mr. Ashok (11+ Yrs Exp in IT)
+
+Training : 8+ Yrs Exp
+
+Ashok IT started in 2020
+
+
+================
+Pre-Requisites
+================
+
+1) Your Time (4 months)
+
+2) Your Intrest to learn the subject
+
+3) Daily Practice
+
+================
+Course Content
+================
+
+Module-1 : Introduction (SDLC)
+
+Module-2 : Linux OS
+
+Module-3 : Shell Scripting
+
+Module-4 : AWS Cloud
+
+Module-5 : DevOps Tools (15+ )
+
+Module-6 : Real-Time Projects
+
+Module-7 : Interview Guidance
+
+===========================================
+
+=> Non-IT ppl also can join for this
+
+=> Programming knowledge is not mandatory
+
+Note: For freshers devops openings are very very less.
+
+================
+Course Info
+================
+
+Course : DevOps with AWS Cloud
+
+Course Code : 24-DevOps
+
+Class Timings: 6:00 PM - 7:30 PM (IST)
+
+Class Mode : Online
+
+Mon - Sat (6 days)
+
+Course Duration: 4 Months (+/- 10 days)
+
+=> Daily running notes will be provided
+
+=> Daily class recording will be provided (1 year acces)
+
+
+DevOps with AWS => Course Fee : 16,000 INR 
+
+
+DevOps Fullstack =>	22,000 INR  (Linux admin + Python)
+
+===================
+DevOps Tools (15+)
+===================
+
+1) Maven
+2) Gradle
+3) Git Hub *
+4) BitBucket
+5) Tomact
+6) SonarQube
+7) Nexus
+8) JFrog
+9) Terraform *
+10) Ansible *
+11) Docker *
+12) Kubernetes *
+13) Jenkins *
+14) ELK
+15) JIRA
+16) Grafana
+17) Promethues
+
+==========================
+AWS Cloud (10+ Services)
+==========================
+
+1) EC2 : Virtual Servers
+		 - EBS (Volumes & Snapshots)
+		 - Load Balancing
+		 - Auto Scaling
+2) S3 : Unlimited Storage
+3) RDS : Relational Database
+3) IAM : Identity & Access Management
+4) VPC : Virtual Private Cloud (Networking)
+5) Lambdas : Serverless computing
+6) EKS : Elastic Kubernetes Service
+7) Cloud Watch : Monitoring
+8) SNS : Simple Notification Service
+9) Route 53 : DNS
+10) AWS CLI
+11) Elastic Bean stack
+
+===================================================
+
+1) Daily Live Classes
+2) Softcopy notes
+3) Backup videos for revision (1 year validity)
+4) Daily Q & A
+5) Whatsapp / Telegram group for discussion
+6) Assignments on each topic
+7) Mock Interviews
+8) Course Completion Certificate
+
+=========================================
+Module-1 : Software Project Introduction
+=========================================
+
+Q) What is software project ?
+
+=> Collection of software programs is called as Software Project
+
+=> To develop software programs we will use programming languages
+
+	Ex: C, C++, Java, Python, PHP, C#....
+
+==========================================
+Q) Why to develop software project ?
+==========================================
+
+=> Software projects are used to reduce human efforts and simplify humans life
+
+	1) IRCTC for train tickets booking
+	2) Netbanking for banking operations
+	3) Amazon, Flipkart etc for online shopping
+	4) Swiggy, zomoto for food orders
+
+
+============================
+Types of software projects
+============================
+
+1) Desktop application / stand-alone application
+
+2) Web Application
+
+3) Mobile application
+
+=> Desktop applications will execute only in one system 
+   (only one user can access at a time)
+
+   	Ex: OS, Calculator, Notepad
+
+=> Web Applications can be accessed by multiple users at a time with internet
+
+	Ex: Youtube, Gmail, facebook, linkedin....
+
+=> Mobile applications are used to run in mobiles	
+
+	Ex : whatsapp, facebook messenger, instagram...
+
+
+================================
+Software Project Architecture	
+================================
+
+=> Application architecture contains below 3 components
+
+		1) Frontend (Presentation Layer)
+		2) Backend (Business Logic)
+		3) Database (Storage)
+
+
+=> Front end contains user interface (presentation layer)
+	Front end technologies : Angular / React JS	
+	
+
+=> Backend technologies : Java / Python / Dot Net / Node JS...	
+
+
+=> Database is used for storage
+	Databases : Oracle , MySQL, SQL Server, Mongo DB, Casandra..	
+
+========================
+Application Tech Stack	
+========================
+
+App-1 : Angular + Java + Oracle
+App-2 : React JS + Java + Mongo DB
+App-3 : Angular + Python + MySQL
+App-4 : React JS + Dot Net + SQL Server
+App-5 : React JS + Node JS + Mongo DB
+
+======================
+Teams in the project
+======================
+
+1) Business Analysis Team (Functional)
+2) Development Team
+3) Testing Team
+4) Operations Team (DevOps Team)
+
+=> Busines Analysis team is responsible to get requirements from the client.
+
+=> Development Team is responsible for coding (develop the project)
+
+=> Testing team is responsible to verify project is working as expected or not.
+
+=> Operations team is responsible for below activites
+
+			a) Infrastructure setup
+
+			  Ex: App servers, Db servers, Storage, Network, Security..
+
+			b) Configuration Management	
+			
+			  Ex: insall required s/w, copy files
+
+         c) Build & Deployment
+
+         d) Application Release
+
+         e) Monitoring
+
+==================================================================
+
+Infrastructure Setup ===> Terraform => AWS | Azure | GCP
+
+Configuration Management ===> Ansible
+
+Source Code Management ===> Git Hub | Bit Bucket
+
+Code Review ===> SonarQube
+
+Artifactory Server ===> Nexus | JFrog
+
+Build + Deployment ==> Maven/Gradle + Docker + Kubernetes + Jenkins
+
+Monitoring ==> Promethues + Grafana + ELK (Logs Monitoring) / Splunk
+
+Project Management ===> JIRA
+
+====================================================================
+
+DevOps = Development (coding + testing) + Operations
+
+=> DevOps is a culture
+
+=> DevOps is a process
+
+=> DevOps means set of best practices
+
+=> DevOps is used to establish colloboration between dev team & ops team.
+
+=> The main of devops process is used to simplify & automate & speed up application build & deployment process with high quality.
+
+=> We can delivery application to client quickly by following devops practices
+
+==========================================
+How to adopt devops process in project ?
+==========================================
+
+By using set of tools those are called as DevOps tools
+
+Terraform : To create infrastructure in cloud platform
+
+Ansible : To manage configuration
+
+Git Hub : Source Code mgmt s/w
+
+Maven : Build Tool
+
+SonarQube : For code review
+
+Nexus : Artifactory server
+
+Tomcat : Web Server
+
+Docker : Containerization
+
+Kuberenetes : Orchestration
+
+Jenkins : CI CD
+
+Promethues & Grafana : Monitoring tools
+
+ELK : Log monitoring
+
+JIRA : Project Management
+
+
+1) What is Software Project ?
+
+2) Roles & Responsibilities of DevOps Engineer
+
+3) What is DevOps & Why ?
+
+4) DevOps Tools
+
+5) Why to use Cloud ?
+
+===========================
+
+1) AWS Cloud 
+
+2) Linux
+
+3) Scripting
+
+4) DevOps tools
+
+====================================================
+
+1) What is DevOps why DevOps ?
+
+2) DevOps tools & purpose of each tool
+
+3) Roles & Responsibilities of DevOps engineer
+
+4) What is Cloud computing & why ?
+
+5) What is project & why project & architecture
+
+====================================================
+
+AWS Account Setup : https://youtu.be/xi-JDeceLeI?si=4MgBX_H4_NPuzdT8
