@@ -1,5 +1,7 @@
 # <spanstyle="color:#a2d2ff">**Basic of UNIX and Linux OS**</span>
 
+## <span style="color:#ffb703">**Linux OS System**</span># <spanstyle="color:#a2d2ff">**Basic of UNIX and Linux OS**</span>
+
 ## <span style="color:#ffb703">**Linux OS System**</span>
 
 ### 🐧 **What is Linux OS?**
