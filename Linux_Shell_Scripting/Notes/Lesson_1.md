@@ -66,7 +66,6 @@ ssh -i my-key.pem ec2-user@<EC2-Public-IP>
 
 - Your client resolves `<EC2-Public-IP>` or `<ec2-xx-xx-xx-xx.compute.amazonaws.com>` using DNS.
 - The TCP packet is constructed with:
-
   - Destination IP = EC2 instance public IP
   - Port = **22** (default for SSH)
 
@@ -79,12 +78,10 @@ ssh -i my-key.pem ec2-user@<EC2-Public-IP>
 Once the TCP connection is established:
 
 1. **SSH Handshake begins**:
-
    - The client and server exchange information about the encryption algorithms (cipher suites) they support.
    - They agree on a **session key** using methods like **Diffie-Hellman** or **ECDH**.
 
 2. **Authentication**:
-
    - Server challenges the client to prove it owns the private key.
    - The client uses its `.pem` file (private key) to sign a message.
    - The server verifies the signature using the **public key** already stored on the EC2 machine.
@@ -107,15 +104,12 @@ After authentication:
 1. **Correct Key Pair** (private key on your local machine, matching public key on EC2).
 2. **Public IP or DNS Name** of the EC2 instance.
 3. **Port 22 Open in Security Group**:
-
    - AWS Security Group must allow incoming TCP on port 22 **from your IP**.
 
 4. **Running SSH Daemon on EC2**:
-
    - The EC2 instance must be running `sshd` (SSH server software).
 
 5. **Correct Username**:
-
    - e.g., `ec2-user`, `ubuntu`, `admin`, etc., depending on the AMI.
 
 ---
@@ -198,7 +192,6 @@ When you launch an EC2 instance and select a key pair:
 
 - You **cannot SSH into your EC2 anymore**.
 - You'll have to:
-
   - Stop the instance,
   - Detach its volume,
   - Mount it to another instance,
@@ -227,14 +220,11 @@ When you launch an EC2 instance and select a key pair:
 2. Go to the top search bar → Type **"EC2"** → Click on **EC2 (under Services)**
 3. In the EC2 dashboard, click **“Launch Instance”**
 4. Fill in these details:
-
    - **Name**: Choose any name (e.g., `my-first-ec2`)
    - **Amazon Machine Image (AMI)**: Choose OS, e.g., **Amazon Linux 2023**, **Ubuntu**, etc.
    - **Instance Type**: Choose **t2.micro** (eligible for free tier)
    - **Key Pair (login)**:
-
      - If you **don’t have one**, click **“Create new key pair”**
-
        - Name it (e.g., `my-key`)
        - Select **.pem** format
        - Click **Download Key Pair** (very important!)
@@ -394,11 +384,9 @@ AWS offers many **families** of instance types optimized for different tasks.
 ### In AWS EC2 Console:
 
 1. After naming your instance → Click **“Choose AMI”**
-
    - Use filters like: “Quick Start”, “Ubuntu”, “Amazon Linux”, etc.
 
 2. Click **“Choose Instance Type”**
-
    - Use the search bar → type `t2.micro`, `t3.micro`, etc.
 
 ---
@@ -485,7 +473,6 @@ In AWS terms:
 1. **CPU and RAM resources** are released by AWS.
 2. **Your EBS root volume remains** in AWS storage infrastructure (like AWS S3/SSD-backed services).
 3. When you restart:
-
    - AWS boots a **new VM** (could be on a different physical machine).
    - It **reattaches your EBS volume** to that new VM.
    - It then boots your OS from that disk — just like booting from a hard drive on a new machine.
@@ -538,4 +525,4 @@ So, always be cautious before hitting “Terminate”.
 
 ---
 
-![EBS_working](img/EBS.png)
+![EBS_working](D:\Desktop\Devops\Linux_Shell_Scripting\img\EBS.png)
