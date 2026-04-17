@@ -105,3 +105,90 @@ Date: 15/4/2026
 
   - Commands:
     - nslookup
+
+---
+
+Date:17/4/2026
+
+- HTTP(Hypertext Transfer Protocol)
+	- Default Port No.:80
+	- What is a Port
+	- How it works
+- HTTPS(Hypertext Transfer Protocol Secure)
+	- Default Port No.:443
+- How loadbalancer handles ports:
+	- like port conversions
+- How HTTP Transfers data from client to server and server to client:
+	- Complete mechanics
+- Request & Response Status Codes:
+	- 404: Page not found
+	- 500: Internal server error
+	- 503: Service Unvailable
+	- 200: Page found/Success
+- Why HTTPS is secure ?
+	- What is the security vulnerability of http
+	- How https solves that vulnerability
+	- What is  certificate and how it works?
+		- What is a SSl/TLS certificate
+- What is a datapacket
+	- what info it carries
+- What is TCP?
+	- How it works
+	- How it enables https
+	- complete mechanics
+- What is UDP?
+	- What is the problem with UDP
+	- What makes less reliable comapare to TCP
+- when to use which protocol
+- What is OSI Layer  
+---
+- Pre-cloud 
+	- Overhead of infrastructure
+	- More initial cost
+	- Hard to scale
+	- Maintenance Cost
+	- Less Flexibility:Related OS and hardware
+	- More Security and Privacy
+	- Less dependency on Network
+	- Very Expensive
+- Virtualisation:
+	- What is virutalisation
+	- How virtualisation works complete mechanics and how each layer and software,hardware help us to virtualise
+	- What are the benefits of Virtualisation
+	- What are the constraints of virtualisation
+	- What are the overheads and cost of virtualisation
+	- What are the benefits of virtualisation
+- P2V Migration:
+	- How it works
+	- How to do it 
+	- Precautions
+	- Complete workflow
+- V2C Migration
+	  - How it works
+	  - How to do it
+	  - Precautions
+	  - Complete Workflow
+
+- Cloud Computing
+	- What is cloud?
+	- What is it's causality
+	- What problem it solves and how it solves it
+	- What happens without cloud
+	- What technology are necessary for cloud and are backbone of it
+		- How each this technology works
+		- Provide an analogy
+- What is meant by IaaS
+- AWS data-centers:33
+- What is AwS
+- What is Computing?
+	- Computing is the method of using electronic devices to perform tasks
+	- Cloud Computing: Computing using remote servers over the network
+- Deployment Models in Cloud:Public Cloud,Private Cloud,Hybrid Cloud
+- What is Public Cloud?:Provider services which are accessed by everyone
+- What is Private Cloud?:Provider services which are accessed within the organisation
+- What is Hybrid Cloud?: Combination Public and Hybrid Cloud
+
+- What are Service Models?
+	- IaaS:Infrastructure as a Service
+	- PaaS:Platform as a Service
+	- SaaS:Software as a Service
